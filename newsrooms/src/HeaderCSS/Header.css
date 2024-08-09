@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Mukta", sans-serif;
+}
+  
+  #main{
+   background-color: #D8FCF5;
+   position: sticky !important;
+   top: 0;
+   z-index: 8888;
+}
+/* #uldata{
+    position: relative;
+} */
+#uldata li a{
+    position: relative;
+    color: black;
+    font-weight:700;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 10px;
+   transition: 0.5s;
+  cursor: pointer;
+   
+   
+}
+#io:hover{
+    background-color: orange !important;
+
+}
+#uldata>li>a:hover{
+    background-color: orange;
+}
+#btn1{
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+#btn2{
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+.megamenu{
+    position: absolute;
+    height: 500px;
+    width: 1000px;
+   
+    top: 50px;
+    left: -450px;
+    transform: scale(0); 
+    z-index: -99;
+    background-color: white;
+    cursor: pointer;
+    
+   
+}
+.megamenu1{
+    position: absolute;
+    
+    width: 1000px;
+   
+    top: 40px;
+  right: -200px;
+    transform: scale(0); 
+    z-index: -999;
+   background-color: white;
+   box-shadow: 0px 0px 10px #ccc;
+    cursor: pointer;
+    
+   
+}
+#uldata>li>a:hover .megamenu{
+    transform: scale(1);
+}
+#uldata>li>a:hover .megamenu1{
+    transform: scale(1);
+}
+.prd{
+    color: #208b8e;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border-bottom: 0.5px solid lightgray;
+}
+.fer{
+    color: #208b8e;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    border-bottom: 0.5px solid lightgray;
+}
+#dmd h5{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+#dmd p{
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.im{
+    width: 50px;
+   
+}
+#the{
+    cursor: pointer;
+    background-color: #D8FCF5;
+  
+}
+
+#the h5{
+   
+    font-size: 14px;
+    text-align: center;
+    color: #208b8e;
+    padding-top: 30px;
+}
+.part{
+    color: #FF7A00;
+}
+.ditch h1{
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 70px;
+
+}
+
+#clr{
+    background-color: #D8FCF5;
+    z-index: -9999;
+}
+.call input{
+    padding: 10px;
+    width: 65%;
+    border: 5px solid #FF7A00;
+}
+.call input::placeholder{
+    font-size: 18px;
+    font-weight: 600;
+    color: #08211D;
+}
+.call button{
+    padding: 12px;
+    margin: 10px;
+    height: 50px;
+   
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF7A00;
+}
+#more{
+    background-color: #08211D;
+    color: white;
+    width: 95%;
+    
+}
+#more h3{
+    
+    font-weight: bold;
+}
+#maroon{
+    background-color: #08211D;
+    padding: 20px;
+    margin-top: 30px;
+}
+.line h5{
+    font-size: 25px;
+}
